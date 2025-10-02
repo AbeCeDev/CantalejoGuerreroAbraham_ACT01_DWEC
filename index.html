@@ -1,0 +1,67 @@
+<!-- Ejercicio realizado por Abraham Cantalejo Guerrero, alumno de 2º DAW, UNIR FP -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>AgoodShop</title>
+</head>
+<body>
+    <!-- Título de la página -->
+    <div class="container my-4 p-3 mb-2 bg-body-tertiary rounded border border-dark-subtle p-2 mb-2 border-opacity-50">
+        <h1 class="mb-4">AgoodShop</h1>
+
+        <div class="row g-3">
+            <!-- Tabla de productos -->
+            <div class="col-md-8">
+                <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded border border-dark-subtle p-2 mb-2 border-opacity-50">
+                    <div class="card-header bg-dark text-white">
+                        Selecciona tus productos
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover align-top" id="tablaProductos">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Producto</th>
+                                        <th>Cantidad</th>
+                                        <th>Pr. Unidad</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="cuerpoTabla">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carrito -->
+            <div class="col-md-4">
+                <div class="card sticky-top">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <span>Carrito</span>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title">Resumen</h6>
+
+                        <div id="productosCarrito" class="list-group mb-3">
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <strong>TOTAL</strong>
+                            <span id="totalFinal" class="fs-5">0€</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
