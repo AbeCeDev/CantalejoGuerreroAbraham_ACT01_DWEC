@@ -14,10 +14,6 @@ En esta actividad debes programar la funcionalidad de carrito de la compra de un
 <<<<<<< HEAD
 ▸	Llamadas a una API.
 ▸	Manejo y modificación del DOM.
-=======
-▸	Llamadas a una API.  
-▸	Manejo y modificación del DOM.  
->>>>>>> c9bb2229cf4aa34f63810db2fd3deb28df8147d9
 ▸	Programación orientada a objetos.
 
 Aunque la tienda es ficticia, la manera de enfocar esta actividad y lo que se requiere no difiere mucho de cómo funciona el mundo real.
