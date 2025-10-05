@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
                     // Se crea el primer span y se añade al div
                     const descrip = document.createElement('span');
-                    descrip.textContent = pro.quantity + " x  " + pro.title;
+                    descrip.textContent = pro.title;
                     console.log(descrip.textContent);
                     lineaCompra.append(descrip);
 
