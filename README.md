@@ -11,7 +11,6 @@
 
 En esta actividad debes programar la funcionalidad de carrito de la compra de una tienda online ficticia. Aquí pondrás en práctica:
 
-<<<<<<< HEAD
 ▸	Llamadas a una API.
 ▸	Manejo y modificación del DOM.
 ▸	Programación orientada a objetos.
